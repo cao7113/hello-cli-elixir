@@ -11,7 +11,8 @@ defmodule HelloCli.MixProject do
       # https://hexdocs.pm/mix/Mix.Tasks.Escript.Build.html
       escript: [
         name: :eops,
-        # path: "bin/eops",
+        app: nil,
+        path: "bin/eops",
         main_module: HelloCli,
         comment: "A sample escript"
       ]
