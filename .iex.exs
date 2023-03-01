@@ -1,0 +1,1 @@
+alias HelloCli, as: Cli

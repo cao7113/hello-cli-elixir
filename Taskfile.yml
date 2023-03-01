@@ -1,0 +1,10 @@
+# https://taskfile.dev
+version: "3"
+tasks:
+  sh: iex -S mix
+  # put into local paths
+  build: mix deps.get escript.build
+  # install into PATH
+  install: mix escript.install
+
+  create: mix new hello-cli-elixir --app eops
