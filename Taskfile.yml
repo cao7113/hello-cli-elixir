@@ -11,6 +11,7 @@ tasks:
   # put into local paths
   build: mix escript.build --force
   # install into PATH
+  # mix do escript.build + escript.install
   install: mix escript.build escript.install bin/eops --force
   script: mix escript
 

@@ -10,9 +10,9 @@ defmodule HelloCli.MixProject do
       deps: deps(),
       # https://hexdocs.pm/mix/Mix.Tasks.Escript.Build.html
       escript: [
-        name: :eops,
         app: nil,
-        path: "bin/eops",
+        name: :eops,
+        # path: "bin/eops",
         main_module: HelloCli,
         comment: "A sample escript"
       ]
